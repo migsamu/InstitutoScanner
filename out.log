@@ -1,0 +1,17 @@
+2021-10-19 09:51:41 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-19 09:51:50 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-19 09:51:53 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-19 09:51:57 INFO  EstudianteReader:20 - Estudiante{nif='48568547g', nombre='miguel', apellidos='sm'}
+2021-10-19 10:19:26 INFO  EstudianteReader:25 - Introduce la letra del grupo
+2021-10-19 10:19:30 INFO  EstudianteReader:27 - Introduce el curso
+2021-10-19 10:19:34 INFO  EstudianteReader:31 - Introduce el numero de alumnos que tiene el grupo
+2021-10-19 10:19:39 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-19 10:19:44 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-19 10:19:47 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-19 10:19:49 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-19 10:19:55 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-19 10:19:58 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-19 10:20:00 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-19 10:20:03 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-19 10:20:06 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-19 10:20:09 INFO  EstudianteReader:21 - Grupo{letra='a', curso=2, estudiantes=[Estudiante{nif='12321sd', nombre='miguel', apellidos='sm'}, Estudiante{nif='1234124a', nombre='alvaro', apellidos='ps'}, Estudiante{nif='9349935jk', nombre='alberto', apellidos='masm'}]}
