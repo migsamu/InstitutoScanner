@@ -30,7 +30,7 @@ public class GrupoReader {
         String curso = scanner.nextLine();
 
         log.info("Introduce el numero de alumnos que tiene el grupo");
-        int numeroAlumnos = scannerUtils.readPositiveNumber("Introduce el numero de alumnos que tiene el grupo");
+        int numeroAlumnos = scannerUtils.readPositiveNumber();
         List<Estudiante> estudiantes = new ArrayList<>();
 
         for (int i = 0; i < numeroAlumnos; i++) {

@@ -24,17 +24,16 @@ public class InstitutoScannerConfiguration {
 
     @Bean
     public GrupoReader grupoReader(Scanner scanner, EstudianteReader estudianteReader, ScannerUtils scannerUtils) {
-        return new GrupoReader(scanner, estudianteReader,scannerUtils);
-    }
-
-
-    @Bean
-    public InstitutoReader institutoReader(Scanner scanner, GrupoReader grupoReader, ScannerUtils scannerUtils){
-        return new InstitutoReader(scanner,grupoReader,scannerUtils);
+        return new GrupoReader(scanner, estudianteReader, scannerUtils);
     }
 
     @Bean
-    public ScannerUtils scannerUtils(Scanner scanner){
+    public InstitutoReader institutoReader(Scanner scanner, GrupoReader grupoReader, ScannerUtils scannerUtils) {
+        return new InstitutoReader(scanner, grupoReader, scannerUtils);
+    }
+
+    @Bean
+    public ScannerUtils scannerUtils(Scanner scanner) {
         return new ScannerUtils(scanner);
     }
 

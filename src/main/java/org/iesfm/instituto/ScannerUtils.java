@@ -24,22 +24,21 @@ public class ScannerUtils {
             try {
                 log.info("Introduce un numero");
                 numero = scan.nextInt();
-
             } catch (InputMismatchException e) {
                 log.error("Debe introducir un numero entero");
+            } finally {
                 scan.nextLine();
             }
         }
         return numero;
     }
 
-    public int readPositiveNumber(String message) {
+    public int readPositiveNumber() {
 
         int numero = readNumber();
         while (numero <= 0) {
-            log.info(message + " \n Introduce un numero entero positivo");
-            numero = scan.nextInt();
-            scan.nextLine();
+            log.error("Error el numero debe ser mayor que 0");
+            numero = readNumber();
 
         }
         return numero;

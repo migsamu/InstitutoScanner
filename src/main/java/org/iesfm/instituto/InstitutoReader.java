@@ -28,7 +28,7 @@ public class InstitutoReader {
         List<Grupo> grupos = new ArrayList<>();
 
         log.info("Cuantos grupos tiene el instituto");
-        int numeroGrupos = scannerUtils.readPositiveNumber("Introduce el numero de grupos que tiene el centro");
+        int numeroGrupos = scannerUtils.readPositiveNumber();
         for (int i = 0; i < numeroGrupos; i++) {
             grupos.add(grupoReader.pideGrupo());
         }
