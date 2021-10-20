@@ -15,3 +15,76 @@
 2021-10-19 10:20:03 INFO  EstudianteReader:22 - Introduce el nombre
 2021-10-19 10:20:06 INFO  EstudianteReader:24 - Introduce los apellidos
 2021-10-19 10:20:09 INFO  EstudianteReader:21 - Grupo{letra='a', curso=2, estudiantes=[Estudiante{nif='12321sd', nombre='miguel', apellidos='sm'}, Estudiante{nif='1234124a', nombre='alvaro', apellidos='ps'}, Estudiante{nif='9349935jk', nombre='alberto', apellidos='masm'}]}
+2021-10-20 12:00:29 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:00:32 INFO  EstudianteReader:28 - Introduce el curso
+2021-10-20 12:00:37 INFO  EstudianteReader:32 - Introduce el numero de alumnos que tiene el grupo
+2021-10-20 12:01:30 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:01:33 INFO  EstudianteReader:28 - Introduce el curso
+2021-10-20 12:01:38 INFO  EstudianteReader:32 - Introduce el numero de alumnos que tiene el grupo
+2021-10-20 12:04:17 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:04:20 INFO  EstudianteReader:28 - Introduce el curso
+2021-10-20 12:04:23 INFO  EstudianteReader:32 - Introduce el numero de alumnos que tiene el grupo
+2021-10-20 12:07:03 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:07:08 INFO  EstudianteReader:28 - Introduce el curso
+2021-10-20 12:07:10 INFO  EstudianteReader:32 - Introduce el numero de alumnos que tiene el grupo
+2021-10-20 12:07:10 INFO  ScannerUtils:22 - Introduce el nmero entero
+2021-10-20 12:07:43 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:07:45 INFO  EstudianteReader:28 - Introduce el curso
+2021-10-20 12:08:43 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:08:47 INFO  ScannerUtils:22 - Introduce un numero entero
+2021-10-20 12:09:34 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:09:38 INFO  ScannerUtils:25 - Debe introducir un numero
+2021-10-20 12:09:39 ERROR ScannerUtils:28 - Debe introducir un numero entero
+2021-10-20 12:09:39 INFO  ScannerUtils:25 - Debe introducir un numero
+2021-10-20 12:10:09 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:10:12 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:10:15 ERROR ScannerUtils:28 - Debe introducir un numero entero
+2021-10-20 12:10:15 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:10:19 INFO  EstudianteReader:30 - Introduce el numero de alumnos que tiene el grupo
+2021-10-20 12:10:19 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:11:45 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:11:48 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:11:49 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:12:32 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:12:34 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:12:38 INFO  EstudianteReader:30 - Cuantos alumnos tiene el grupo?
+2021-10-20 12:12:38 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:12:43 ERROR ScannerUtils:28 - Debe introducir un numero entero
+2021-10-20 12:12:43 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:12:47 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-20 12:12:51 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-20 12:12:53 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-20 12:12:55 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-20 12:12:57 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-20 12:12:58 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-20 12:12:59 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-20 12:12:59 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-20 12:13:00 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-20 12:13:00 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-20 12:13:01 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-20 12:13:01 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-20 12:13:02 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-20 12:13:02 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-20 12:13:02 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-20 12:13:03 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-20 12:13:03 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-20 12:13:03 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-20 12:13:04 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-20 12:13:04 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-20 12:13:04 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-20 12:13:05 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-20 12:13:05 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-20 12:13:05 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-20 12:13:05 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-20 12:13:06 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-20 12:13:06 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-20 12:13:06 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-20 12:13:06 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-20 12:13:07 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-20 12:13:07 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-20 12:13:07 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-20 12:13:07 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-20 12:13:08 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-20 12:13:08 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-20 12:13:08 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-20 12:13:08 INFO  EstudianteReader:21 - Grupo{letra='a', curso=21, estudiantes=[Estudiante{nif='1', nombre='d', apellidos='d'}, Estudiante{nif='2', nombre='d', apellidos='d'}, Estudiante{nif='1', nombre='d', apellidos='d'}, Estudiante{nif='1', nombre='d', apellidos='d'}, Estudiante{nif='1', nombre='d', apellidos='d'}, Estudiante{nif='1', nombre='d', apellidos='d'}, Estudiante{nif='d1', nombre='1', apellidos='d'}, Estudiante{nif='12', nombre='d12', apellidos='d1'}, Estudiante{nif='d21', nombre='2d', apellidos='12d'}, Estudiante{nif='12d', nombre='12d', apellidos='d2'}, Estudiante{nif='12d', nombre='12', apellidos='d12d'}, Estudiante{nif='12', nombre='d', apellidos=''}]}

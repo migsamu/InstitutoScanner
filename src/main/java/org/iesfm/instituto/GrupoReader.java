@@ -13,24 +13,22 @@ public class GrupoReader {
 
     private Scanner scanner;
     private EstudianteReader estudianteReader;
+    private ScannerUtils scannerUtils;
 
-    public GrupoReader(Scanner scanner, EstudianteReader estudianteReader) {
+    public GrupoReader(Scanner scanner, EstudianteReader estudianteReader, ScannerUtils scannerUtils) {
         this.scanner = scanner;
         this.estudianteReader = estudianteReader;
+        this.scannerUtils = scannerUtils;
     }
-
 
     public Grupo pideGrupo() {
 
         log.info("Introduce la letra del grupo");
         String letra = scanner.nextLine();
-        log.info("Introduce el curso");
-        int curso = scanner.nextInt();
-        scanner.nextLine();
+        int curso =scannerUtils.readNumber();
 
-        log.info("Introduce el numero de alumnos que tiene el grupo");
-        int numeroAlumnos = scanner.nextInt();
-        scanner.nextLine();
+        log.info("Cuantos alumnos tiene el grupo?");
+        int numeroAlumnos = scannerUtils.readPositiveNumber("Introduce el numero de alumnos que tiene el grupo");
 
         List<Estudiante> estudiantes = new ArrayList<>();
 
@@ -38,8 +36,6 @@ public class GrupoReader {
             Estudiante estudiante = estudianteReader.pideEstudiante();
             estudiantes.add(estudiante);
         }
-
-        //TODO crear un pideEnteroPositivoReader como beans
         return new Grupo(letra, curso, estudiantes);
     }
 }

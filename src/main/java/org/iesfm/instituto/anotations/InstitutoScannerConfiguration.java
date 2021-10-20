@@ -2,6 +2,8 @@ package org.iesfm.instituto.anotations;
 
 import org.iesfm.instituto.EstudianteReader;
 import org.iesfm.instituto.GrupoReader;
+import org.iesfm.instituto.InstitutoReader;
+import org.iesfm.instituto.ScannerUtils;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -21,10 +23,19 @@ public class InstitutoScannerConfiguration {
     }
 
     @Bean
-    public GrupoReader grupoReader(Scanner scanner, EstudianteReader estudianteReader) {
-        return new GrupoReader(scanner, estudianteReader);
+    public GrupoReader grupoReader(Scanner scanner, EstudianteReader estudianteReader, ScannerUtils scannerUtils) {
+        return new GrupoReader(scanner, estudianteReader,scannerUtils);
     }
 
 
+    @Bean
+    public InstitutoReader institutoReader(Scanner scanner, GrupoReader grupoReader){
+        return new InstitutoReader(scanner,grupoReader);
+    }
+
+    @Bean
+    public ScannerUtils scannerUtils(Scanner scanner){
+        return new ScannerUtils(scanner);
+    }
 
 }

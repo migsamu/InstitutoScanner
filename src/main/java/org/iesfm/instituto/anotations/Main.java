@@ -31,4 +31,7 @@ lo devuelve. Un estudiante tiene los siguientes campos: nif, nombre y apellidos
 
 c. Un bean GroupReader. Este bean tendrá un método que al ser invocado pide los datos de un grupo y lo devuelve.
 Un grupo tiene: letra, curso y una lista de estudiantes.
+
+d. Un bean InstitutoReader. Este bean tendrá un método que al ser invocado pide los datos de un instituto y lo devuelve.
+ Un instituto tiene: nombre y una lista de grupos.
 En el main hay que crear el application context, pedir un estudiante e imprimirlo en pantalla.*/
