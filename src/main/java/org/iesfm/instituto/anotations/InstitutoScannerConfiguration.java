@@ -29,8 +29,8 @@ public class InstitutoScannerConfiguration {
 
 
     @Bean
-    public InstitutoReader institutoReader(Scanner scanner, GrupoReader grupoReader){
-        return new InstitutoReader(scanner,grupoReader);
+    public InstitutoReader institutoReader(Scanner scanner, GrupoReader grupoReader, ScannerUtils scannerUtils){
+        return new InstitutoReader(scanner,grupoReader,scannerUtils);
     }
 
     @Bean

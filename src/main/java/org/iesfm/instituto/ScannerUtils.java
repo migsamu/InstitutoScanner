@@ -24,9 +24,9 @@ public class ScannerUtils {
             try {
                 log.info("Introduce un numero");
                 numero = scan.nextInt();
+
             } catch (InputMismatchException e) {
                 log.error("Debe introducir un numero entero");
-            } finally {
                 scan.nextLine();
             }
         }
@@ -37,9 +37,10 @@ public class ScannerUtils {
 
         int numero = readNumber();
         while (numero <= 0) {
-            log.info(message + "Introduce un numero entero positivo");
+            log.info(message + " \n Introduce un numero entero positivo");
             numero = scan.nextInt();
             scan.nextLine();
+
         }
         return numero;
     }

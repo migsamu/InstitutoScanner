@@ -88,3 +88,121 @@
 2021-10-20 12:13:08 INFO  EstudianteReader:22 - Introduce el nombre
 2021-10-20 12:13:08 INFO  EstudianteReader:24 - Introduce los apellidos
 2021-10-20 12:13:08 INFO  EstudianteReader:21 - Grupo{letra='a', curso=21, estudiantes=[Estudiante{nif='1', nombre='d', apellidos='d'}, Estudiante{nif='2', nombre='d', apellidos='d'}, Estudiante{nif='1', nombre='d', apellidos='d'}, Estudiante{nif='1', nombre='d', apellidos='d'}, Estudiante{nif='1', nombre='d', apellidos='d'}, Estudiante{nif='1', nombre='d', apellidos='d'}, Estudiante{nif='d1', nombre='1', apellidos='d'}, Estudiante{nif='12', nombre='d12', apellidos='d1'}, Estudiante{nif='d21', nombre='2d', apellidos='12d'}, Estudiante{nif='12d', nombre='12d', apellidos='d2'}, Estudiante{nif='12d', nombre='12', apellidos='d12d'}, Estudiante{nif='12', nombre='d', apellidos=''}]}
+2021-10-20 12:19:58 INFO  EstudianteReader:25 - Introduce el nombre del instituto
+2021-10-20 12:20:07 INFO  EstudianteReader:30 - Cuantos grupos tiene el instituto
+2021-10-20 12:20:07 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:20:12 ERROR ScannerUtils:28 - Debe introducir un numero entero
+2021-10-20 12:20:12 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:20:21 INFO  ScannerUtils:40 - Introduce el numeor de grupos que tiene el centroIntroduce un numero entero positivo
+2021-10-20 12:21:22 INFO  EstudianteReader:25 - Introduce el nombre del instituto
+2021-10-20 12:21:31 INFO  EstudianteReader:30 - Cuantos grupos tiene el instituto
+2021-10-20 12:21:31 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:21:34 ERROR ScannerUtils:28 - Debe introducir un numero entero
+2021-10-20 12:21:34 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:21:38 INFO  ScannerUtils:40 - Introduce el numeor de grupos que tiene el centroIntroduce un numero entero positivo
+2021-10-20 12:22:24 INFO  EstudianteReader:25 - Introduce el nombre del instituto
+2021-10-20 12:22:47 INFO  EstudianteReader:30 - Cuantos grupos tiene el instituto
+2021-10-20 12:22:47 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:22:50 ERROR ScannerUtils:28 - Debe introducir un numero entero
+2021-10-20 12:22:50 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:22:54 INFO  ScannerUtils:40 - Introduce el numeor de grupos que tiene el centro 
+ Introduce un numero entero positivo
+2021-10-20 12:23:22 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:23:22 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:23:25 ERROR ScannerUtils:28 - Debe introducir un numero entero
+2021-10-20 12:23:25 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:24:36 INFO  EstudianteReader:25 - Introduce el nombre del instituto
+2021-10-20 12:24:41 INFO  EstudianteReader:30 - Cuantos grupos tiene el instituto
+2021-10-20 12:24:41 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:24:46 ERROR ScannerUtils:28 - Debe introducir un numero entero
+2021-10-20 12:24:46 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:24:52 INFO  ScannerUtils:40 - Introduce el numero de grupos que tiene el centro 
+ Introduce un numero entero positivo
+2021-10-20 12:24:58 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:24:58 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:26:04 INFO  EstudianteReader:25 - Introduce el nombre del instituto
+2021-10-20 12:26:07 INFO  EstudianteReader:30 - Cuantos grupos tiene el instituto
+2021-10-20 12:26:07 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:26:10 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:26:14 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:27:34 INFO  EstudianteReader:25 - Introduce el nombre del instituto
+2021-10-20 12:27:36 INFO  EstudianteReader:30 - Cuantos grupos tiene el instituto
+2021-10-20 12:27:36 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:27:40 ERROR ScannerUtils:28 - Debe introducir un numero entero
+2021-10-20 12:27:40 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:27:44 INFO  ScannerUtils:40 - Introduce el numero de grupos que tiene el centro 
+ Introduce un numero entero positivo
+2021-10-20 12:27:48 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:27:48 INFO  EstudianteReader:29 - Indica el curso
+2021-10-20 12:27:48 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:28:05 INFO  EstudianteReader:25 - Introduce el nombre del instituto
+2021-10-20 12:28:07 INFO  EstudianteReader:30 - Cuantos grupos tiene el instituto
+2021-10-20 12:28:07 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:28:43 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:28:46 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:28:50 INFO  EstudianteReader:32 - Cuantos alumnos tiene el grupo?
+2021-10-20 12:28:50 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:30:57 INFO  EstudianteReader:25 - Introduce el nombre del instituto
+2021-10-20 12:30:59 INFO  EstudianteReader:30 - Cuantos grupos tiene el instituto
+2021-10-20 12:30:59 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:31:02 ERROR ScannerUtils:29 - Debe introducir un numero entero
+2021-10-20 12:31:02 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:31:06 INFO  ScannerUtils:40 - Introduce el numero de grupos que tiene el centro 
+ Introduce un numero entero positivo
+2021-10-20 12:31:08 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:31:08 INFO  EstudianteReader:29 - Indica el curso
+2021-10-20 12:31:08 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:31:27 INFO  EstudianteReader:25 - Introduce el nombre del instituto
+2021-10-20 12:31:40 INFO  EstudianteReader:30 - Cuantos grupos tiene el instituto
+2021-10-20 12:31:40 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:31:43 ERROR ScannerUtils:29 - Debe introducir un numero entero
+2021-10-20 12:31:43 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:31:47 INFO  ScannerUtils:40 - Introduce el numero de grupos que tiene el centro 
+ Introduce un numero entero positivo
+2021-10-20 12:31:49 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:31:49 INFO  EstudianteReader:29 - Indica el curso
+2021-10-20 12:31:49 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:34:45 INFO  EstudianteReader:25 - Introduce el nombre del instituto
+2021-10-20 12:34:48 INFO  EstudianteReader:30 - Cuantos grupos tiene el instituto
+2021-10-20 12:34:48 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:34:54 ERROR ScannerUtils:29 - Debe introducir un numero entero
+2021-10-20 12:34:54 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:34:57 INFO  ScannerUtils:40 - Introduce el numero de grupos que tiene el centro 
+ Introduce un numero entero positivo
+2021-10-20 12:34:59 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:34:59 INFO  EstudianteReader:29 - Introduce el curso
+2021-10-20 12:37:34 INFO  EstudianteReader:25 - Introduce el nombre del instituto
+2021-10-20 12:37:37 INFO  EstudianteReader:30 - Cuantos grupos tiene el instituto
+2021-10-20 12:37:37 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:37:41 ERROR ScannerUtils:29 - Debe introducir un numero entero
+2021-10-20 12:37:41 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:37:43 INFO  ScannerUtils:40 - Introduce el numero de grupos que tiene el centro 
+ Introduce un numero entero positivo
+2021-10-20 12:37:49 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:37:51 INFO  EstudianteReader:29 - Introduce el curso
+2021-10-20 12:37:54 INFO  EstudianteReader:32 - Introduce el numero de alumnos que tiene el grupo
+2021-10-20 12:37:54 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:37:58 INFO  ScannerUtils:40 - Introduce el numero de alumnos que tiene el grupo 
+ Introduce un numero entero positivo
+2021-10-20 12:38:00 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-20 12:38:00 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-20 12:39:05 INFO  EstudianteReader:25 - Introduce el nombre del instituto
+2021-10-20 12:39:07 INFO  EstudianteReader:30 - Cuantos grupos tiene el instituto
+2021-10-20 12:39:07 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:39:19 ERROR ScannerUtils:29 - Debe introducir un numero entero
+2021-10-20 12:39:19 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:39:30 INFO  ScannerUtils:40 - Introduce el numero de grupos que tiene el centro 
+ Introduce un numero entero positivo
+2021-10-20 12:39:49 INFO  EstudianteReader:26 - Introduce la letra del grupo
+2021-10-20 12:39:51 INFO  EstudianteReader:29 - Introduce el curso
+2021-10-20 12:40:00 INFO  EstudianteReader:32 - Introduce el numero de alumnos que tiene el grupo
+2021-10-20 12:40:00 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-20 12:40:31 INFO  ScannerUtils:40 - Introduce el numero de alumnos que tiene el grupo 
+ Introduce un numero entero positivo
+2021-10-20 12:40:37 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-20 12:40:39 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-20 12:40:41 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-20 12:40:42 INFO  EstudianteReader:20 - Introduce el Nif
+2021-10-20 12:40:44 INFO  EstudianteReader:22 - Introduce el nombre
+2021-10-20 12:40:44 INFO  EstudianteReader:24 - Introduce los apellidos
+2021-10-20 12:40:46 INFO  EstudianteReader:19 - Instituto{nombre='a', grupos=[Grupo{letra='a', curso=2, estudiantes=[Estudiante{nif='asd', nombre='asd', apellidos='asd'}, Estudiante{nif='qwe', nombre='qwe', apellidos='qwe'}]}]}

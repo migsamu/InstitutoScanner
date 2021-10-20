@@ -1,8 +1,6 @@
 package org.iesfm.instituto.anotations;
 
-import org.iesfm.instituto.EstudianteReader;
-import org.iesfm.instituto.Grupo;
-import org.iesfm.instituto.GrupoReader;
+import org.iesfm.instituto.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
@@ -15,10 +13,10 @@ public class Main {
 
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(InstitutoScannerConfiguration.class);
-        GrupoReader programa = context.getBean(GrupoReader.class);
-        Grupo grupo = programa.pideGrupo();
+        InstitutoReader programa = context.getBean(InstitutoReader.class);
+        Instituto instituto = programa.pideInstituto();
 
-        log.info(grupo.toString());
+        log.info(instituto.toString());
 
     }
 }

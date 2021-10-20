@@ -11,13 +11,14 @@ public class InstitutoReader {
 
     private static final Logger log = LoggerFactory.getLogger(EstudianteReader.class);
 
-
     private Scanner scanner;
     private GrupoReader grupoReader;
+    private ScannerUtils scannerUtils;
 
-    public InstitutoReader(Scanner scanner, GrupoReader grupoReader) {
+    public InstitutoReader(Scanner scanner, GrupoReader grupoReader, ScannerUtils scannerUtils) {
         this.scanner = scanner;
         this.grupoReader = grupoReader;
+        this.scannerUtils = scannerUtils;
     }
 
     public Instituto pideInstituto() {
@@ -26,15 +27,13 @@ public class InstitutoReader {
 
         List<Grupo> grupos = new ArrayList<>();
 
-        log.info("Introduce el numero de grupos que tiene el instituto");
-        int numeroGrupos = scanner.nextInt();
-        scanner.nextLine();
-
+        log.info("Cuantos grupos tiene el instituto");
+        int numeroGrupos = scannerUtils.readPositiveNumber("Introduce el numero de grupos que tiene el centro");
         for (int i = 0; i < numeroGrupos; i++) {
             grupos.add(grupoReader.pideGrupo());
         }
 
-        return new Instituto(nombre,grupos);
+        return new Instituto(nombre, grupos);
     }
 
 }

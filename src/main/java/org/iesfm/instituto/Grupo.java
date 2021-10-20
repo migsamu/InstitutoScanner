@@ -11,10 +11,10 @@ public class Grupo {
     private static final Logger log = LoggerFactory.getLogger(EstudianteReader.class);
 
     private String letra;
-    private int curso;
+    private String curso;
     private List<Estudiante> estudiantes;
 
-    public Grupo(String letra, int curso, List<Estudiante> estudiantes) {
+    public Grupo(String letra, String curso, List<Estudiante> estudiantes) {
 
         this.letra = letra;
         this.curso = curso;
@@ -30,11 +30,11 @@ public class Grupo {
         this.letra = letra;
     }
 
-    public int getCurso() {
+    public String getCurso() {
         return curso;
     }
 
-    public void setCurso(int curso) {
+    public void setCurso(String curso) {
         this.curso = curso;
     }
 
