@@ -1,0 +1,32 @@
+{
+  "nombre": "a",
+  "grupos": [
+    {
+      "letra": "a",
+      "curso": "3",
+      "estudiantes": [
+        {
+          "nif": "123d",
+          "nombre": "Miguel",
+          "apellidos": "sm"
+        },
+        {
+          "nif": "321g",
+          "nombre": "pepe",
+          "apellidos": "PM"
+        }
+      ]
+    },
+    {
+      "letra": "f",
+      "curso": "1",
+      "estudiantes": [
+        {
+          "nif": "5345g",
+          "nombre": "tere",
+          "apellidos": "TR"
+        }
+      ]
+    }
+  ]
+}

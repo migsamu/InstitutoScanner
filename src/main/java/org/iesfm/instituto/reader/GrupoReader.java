@@ -1,5 +1,7 @@
-package org.iesfm.instituto;
+package org.iesfm.instituto.reader;
 
+import org.iesfm.instituto.Estudiante;
+import org.iesfm.instituto.Grupo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -7,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class GrupoReader {
+public class GrupoReader implements Reader<Grupo> {
 
     private static final Logger log = LoggerFactory.getLogger(EstudianteReader.class);
 
@@ -21,7 +23,8 @@ public class GrupoReader {
         this.scannerUtils = scannerUtils;
     }
 
-    public Grupo pideGrupo() {
+    @Override
+    public Grupo read() {
 
         log.info("Introduce la letra del grupo");
         String letra = scanner.nextLine();
@@ -34,7 +37,7 @@ public class GrupoReader {
         List<Estudiante> estudiantes = new ArrayList<>();
 
         for (int i = 0; i < numeroAlumnos; i++) {
-            Estudiante estudiante = estudianteReader.pideEstudiante();
+            Estudiante estudiante = estudianteReader.read();
             estudiantes.add(estudiante);
         }
         return new Grupo(letra, curso, estudiantes);

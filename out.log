@@ -234,3 +234,23 @@
 2021-10-20 12:52:16 INFO  EstudianteReader:22 - Introduce el nombre
 2021-10-20 12:52:18 INFO  EstudianteReader:24 - Introduce los apellidos
 2021-10-20 12:52:19 INFO  EstudianteReader:19 - Instituto{nombre='a', grupos=[Grupo{letra='a', curso=2, estudiantes=[Estudiante{nif='a', nombre='s', apellidos='d'}]}]}
+2021-10-26 10:02:42 INFO  EstudianteReader:28 - Introduce el nombre del instituto
+2021-10-26 10:02:47 INFO  EstudianteReader:33 - Cuantos grupos tiene el instituto
+2021-10-26 10:02:47 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-26 10:02:54 INFO  EstudianteReader:29 - Introduce la letra del grupo
+2021-10-26 10:02:58 INFO  EstudianteReader:32 - Introduce el curso
+2021-10-26 10:03:01 INFO  EstudianteReader:35 - Introduce el numero de alumnos que tiene el grupo
+2021-10-26 10:03:01 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-26 10:03:04 INFO  EstudianteReader:22 - Introduce el Nif
+2021-10-26 10:03:06 INFO  EstudianteReader:24 - Introduce el nombre
+2021-10-26 10:03:09 INFO  EstudianteReader:26 - Introduce los apellidos
+2021-10-26 10:03:11 INFO  EstudianteReader:22 - Introduce el Nif
+2021-10-26 10:03:15 INFO  EstudianteReader:24 - Introduce el nombre
+2021-10-26 10:03:18 INFO  EstudianteReader:26 - Introduce los apellidos
+2021-10-26 10:03:20 INFO  EstudianteReader:29 - Introduce la letra del grupo
+2021-10-26 10:04:05 INFO  EstudianteReader:32 - Introduce el curso
+2021-10-26 10:04:09 INFO  EstudianteReader:35 - Introduce el numero de alumnos que tiene el grupo
+2021-10-26 10:04:09 INFO  ScannerUtils:25 - Introduce un numero
+2021-10-26 10:04:12 INFO  EstudianteReader:22 - Introduce el Nif
+2021-10-26 10:04:15 INFO  EstudianteReader:24 - Introduce el nombre
+2021-10-26 10:04:19 INFO  EstudianteReader:26 - Introduce los apellidos

@@ -1,15 +1,21 @@
 package org.iesfm.instituto.anotations;
 
-import org.iesfm.instituto.EstudianteReader;
-import org.iesfm.instituto.GrupoReader;
-import org.iesfm.instituto.InstitutoReader;
-import org.iesfm.instituto.ScannerUtils;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.iesfm.instituto.InstitutoJsonProgram;
+import org.iesfm.instituto.reader.EstudianteReader;
+import org.iesfm.instituto.reader.GrupoReader;
+import org.iesfm.instituto.reader.InstitutoReader;
+import org.iesfm.instituto.reader.ScannerUtils;
+import org.iesfm.instituto.writer.InstitutoWriter;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
 import java.util.Scanner;
 
 @Configuration
+@PropertySource("aplication.properties")
 public class InstitutoScannerConfiguration {
 
     @Bean
@@ -33,8 +39,23 @@ public class InstitutoScannerConfiguration {
     }
 
     @Bean
+    public ObjectMapper objectMapper() {
+        return new ObjectMapper();
+    }
+
+    @Bean
     public ScannerUtils scannerUtils(Scanner scanner) {
         return new ScannerUtils(scanner);
+    }
+
+    @Bean
+    public InstitutoWriter institutoWriter(ObjectMapper mapper, @Value("${instituto.path}") String path) {
+        return new InstitutoWriter(mapper, path);
+    }
+
+    @Bean
+    public InstitutoJsonProgram institutoJsonProgram(InstitutoReader institutoReader, InstitutoWriter institutoWriter) {
+        return new InstitutoJsonProgram(institutoReader, institutoWriter);
     }
 
 }

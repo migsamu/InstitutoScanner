@@ -1,4 +1,4 @@
-package org.iesfm.instituto;
+package org.iesfm.instituto.reader;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
